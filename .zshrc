@@ -19,8 +19,8 @@ _comp_options+=(globdots)
 
 #SCRIPT CHAD PATHING ONLY SPOT
 export PATH=~/scripts:$PATH
-# alias shit
-# to run things from an entire nother directory 1) cd there first 2) run it 3) put a ; at the end of the command and then do "cd" to go back home all in one line command. can also do "cd -" to go back to directory you were at before. wack as fuck but it works 
+# alias 
+# to run things from an entire nother directory 1) cd there first 2) run it 3) put a ; at the end of the command and then do "cd" to go back home all in one line command. can also do "cd -" to go back to directory you were at before. can find a cleaner way later
 
 #color
 alias \
@@ -47,9 +47,9 @@ alias \
 	themedark="wal --theme random_dark" \
 	themelight="wal --theme random_light" \
 	vpn="sudo openvpn /etc/openvpn/ovpn_udp/us8386.nordvpn.com.udp.ovpn" \
-#IMPORTANT: TO CHANGE SERVERS, RUN nord-servers FOR UDP AND nord-servers-tcp FOR TCP SERVERS AND THEN USE THAT .opvn FILE FOR VPN FOR CHANGING FOR WHATEVER REASON. JUST INCASE ALPHABETS ON THE MOVE BECAUSE FUCK FEDS. MAY NEED TO RE ENTER CREDENTIALS.
+#IMPORTANT: TO CHANGE SERVERS, RUN nord-servers FOR UDP AND nord-servers-tcp FOR TCP SERVERS AND THEN USE THAT .opvn FILE FOR VPN FOR CHANGING FOR WHATEVER REASON. MAY NEED TO RE ENTER CREDENTIALS.
 #
-#are you that lazy that you cant even type out .sh what the hell are you doing using a computer you absolute fucking state
+#.sh files
 #
 alias \
 	tm="transcode.sh" \
